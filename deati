@@ -1,0 +1,41 @@
+Exploratory Data Analysis on Netflix Movies from the 1990s
+This project aims to explore and analyze the vast Netflix dataset, focusing on movies released during the 1990s. The goal is to uncover insights about the nostalgic film era and identify trends related to production, genres, directors, and countries contributing to the entertainment landscape of that decade.
+
+Using Exploratory Data Analysis (EDA) techniques, we will dive deep into the dataset, identifying patterns and extracting relevant information. This research will help our production company better understand what made the 90s movies so unique and beloved, guiding future productions towards nostalgic themes that appeal to modern audiences.
+Objectives:
+Filter and analyze movies specifically released in the 1990s.
+Explore patterns in genres, directors, and cast members from this decade.
+Investigate which countries contributed the most to 90s movie productions.
+Examine the duration of movies to identify any trends in movie length.
+Analyze the popularity of specific genres from the 1990s based on descriptions.
+Visualize trends to gain insights on the most common themes and styles of the decade.
+Dataset Overview:
+The Netflix dataset, netflix_data.csv, includes the following columns:
+show_id: Unique ID for each show or movie.
+type: Whether it is a "Movie" or a "TV Show."
+title: Name of the show or movie.
+director: Director(s) of the movie.
+cast: Main cast members.
+country: Country where the movie or show was produced.
+date_added: Date the movie or show was added to Netflix.
+release_year: Year the movie or show was released.
+duration: Length of the movie (in minutes) or show (number of seasons).
+description: Short description or summary.
+genre: Genre(s) associated with the movie or show.
+Planned Analyses:
+Filtering by release year: Focus on movies released between 1990 and 1999.
+Distribution of genres: Identify the most popular genres during the 90s.
+Director and cast analysis: Find the most frequent collaborators.
+Country-wise contribution: Understand which countries produced the most content during the 90s.
+Duration analysis: Discover the typical runtime for movies of this era.
+Thematic trends: Analyze the descriptions to find recurring themes and topics.
+Tools and Libraries:
+Python: For data cleaning, analysis, and visualization.
+Pandas: For data manipulation.
+Matplotlib & Seaborn: For visualizing trends and distributions.
+WordCloud or NLP libraries: To extract common themes from descriptions.
+
+
+This analysis will help identify key elements from the 1990s film era and provide data-driven insights to inspire future nostalgic productions.
+
+
